@@ -11,8 +11,8 @@ RUN wget https://get.symfony.com/cli/installer -O - | bash &&  mv /root/.symfony
 
 RUN docker-php-ext-install pdo_mysql
 
-RUN git config --global user.email "augustin.1201@outlook.fr"
-RUN git config --global user.name "augustinde"
+RUN git config --global user.email "email"
+RUN git config --global user.name "name"
 
 ENV APP_ENV dev
 WORKDIR /var/www/html
